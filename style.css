@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
   margin: 0;
 }
@@ -437,3 +438,44 @@ body {
                         .baks{background-color: #ffffff;font-family: ArialMT;font-size: 40px;line-height: 30px;font-weight: 400;color: #445162;}
                         .silk{display: flex;justify-content:end;;}
                 
+=======
+body,
+header {
+  margin: 0px;
+  padding: 0px;
+}
+.hello {
+  color: white;
+  width: 100%;
+  min-height: 600px;
+  background-image: url(./img/bg_photo_11949.jpg);
+  background-repeat: no-repeat;
+  /* background-position: center; */
+  /* background-attachment: fixed; */
+  background-origin: border-box;
+}
+.box {
+  display: flex;
+  align-items: center;
+  max-width: 1250px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+.box > img {
+  margin-right: 20%;
+}
+.box > ul {
+  width: 100%;
+  list-style: none;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.carousel {
+  max-width: 1250px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 10%;
+}
+>>>>>>> html-css-lesson-3
