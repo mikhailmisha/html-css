@@ -9,14 +9,20 @@
   <body>
     <section class="hello">
       <header class="box">
-        <img src="" alt="logo" />
+        <svg class="icon"
+         xmlns="http://www.w3.org/2000/svg"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         width="64" height="56">
+        <path d="M52.873,55.128 L58.125,45.939 L63.377,55.128 L52.873,55.128 ZM46.303,45.172 L56.811,45.172 L51.557,54.359 L46.303,45.172 ZM51.557,34.451 L56.811,43.641 L46.303,43.641 L51.557,34.451 ZM39.738,33.686 L50.243,33.686 L44.990,42.874 L39.738,33.686 ZM44.990,22.967 L50.243,32.154 L39.738,32.154 L44.990,22.967 ZM33.168,22.202 L43.676,22.202 L38.422,31.390 L33.168,22.202 ZM38.422,11.480 L43.676,20.671 L33.168,20.671 L38.422,11.480 ZM26.600,10.713 L37.108,10.713 L31.854,19.905 L26.600,10.713 ZM31.854,-0.006 L37.108,9.184 L26.600,9.184 L31.854,-0.006 ZM20.032,20.671 L25.286,11.480 L30.540,20.671 L20.032,20.671 ZM13.465,32.154 L18.718,22.967 L23.971,32.154 L13.465,32.154 ZM6.897,43.641 L12.151,34.451 L17.404,43.641 L6.897,43.641 ZM0.331,55.128 L5.582,45.939 L10.836,55.128 L0.331,55.128 ZM17.404,45.172 L12.151,54.359 L6.897,45.172 L17.404,45.172 ZM23.971,33.686 L18.718,42.874 L13.465,33.686 L23.971,33.686 ZM30.540,22.202 L25.286,31.390 L20.032,22.202 L30.540,22.202 ZM37.108,55.128 L26.600,55.128 L31.854,45.939 L37.108,55.128 ZM43.676,45.172 L38.422,54.359 L33.168,45.172 L43.676,45.172 ZM50.243,55.128 L39.738,55.128 L44.990,45.939 L50.243,55.128 Z"/>
+    </svg>
+        <a class="nav" href="">Waxom</a>
         <ul>
-          <li><a href="">Waxom</a></li>
-          <li><a href="">Home</a></li>
-          <li><a href="">Portfolio</a></li>
-          <li><a href="">Portfolio</a></li>
-          <li><a href="">Features</a></li>
-          <li><a href="">Blog</a></li>
+          
+          <li><a class="nav" href="">Home</a></li>
+          <li><a class="nav" href="">Portfolio</a></li>
+          <li><a class="nav" href="">Portfolio</a></li>
+          <li><a class="nav" href="">Features</a></li>
+          <li><a class="nav" href="">Blog</a></li>
         </ul>
       </header>
       <div class="carousel">
@@ -26,12 +32,12 @@
           Nam liber tempor cum soluta nobis eleifend option congue nihil
           imperdiet doming id quod mazim placerat facer possim assum.
         </p>
-        <a href="#">Get start</a>
+        <a class="click" href="#">Get start</a>
       </div>
     </section>
     <main>
-      <section>
-        <div class="features">
+      <section class="fetures-display">
+        <li class="features">
           <svg
             class="features-icon"
             xmlns="http://www.w3.org/2000/svg"
@@ -43,6 +49,7 @@
               d="M47.668,19.717 L33.402,33.985 L0.534,48.463 L15.011,15.591 L29.279,1.327 C29.898,0.706 30.904,0.706 31.527,1.327 C32.148,1.950 32.148,2.955 31.527,3.576 L17.683,17.422 L9.107,36.888 L12.106,39.887 L31.573,31.314 L45.420,17.470 C46.039,16.847 47.043,16.847 47.668,17.470 C48.289,18.090 48.289,19.100 47.668,19.717 ZM29.745,28.466 C29.434,28.773 29.028,28.931 28.620,28.931 C28.211,28.931 27.805,28.773 27.495,28.466 C26.875,27.843 26.875,26.836 27.495,26.216 L40.827,12.885 C41.450,12.260 42.454,12.260 43.077,12.885 C43.700,13.505 43.700,14.510 43.077,15.134 L29.745,28.466 ZM26.265,24.985 C25.955,25.293 25.549,25.450 25.140,25.450 C24.734,25.450 24.326,25.293 24.015,24.985 C23.394,24.364 23.394,23.354 24.015,22.735 L37.348,9.403 C37.970,8.780 38.974,8.780 39.598,9.403 C40.219,10.023 40.219,11.030 39.598,11.653 L26.265,24.985 ZM22.784,21.502 C22.473,21.814 22.065,21.968 21.659,21.968 C21.253,21.968 20.845,21.814 20.534,21.502 C19.914,20.883 19.914,19.873 20.534,19.253 L33.867,5.922 C34.490,5.298 35.495,5.298 36.117,5.922 C36.739,6.542 36.739,7.548 36.117,8.172 L22.784,21.502 Z"
             />
           </svg>
+          <br>
           <span class="features-title">Web and App design</span>
           <p class="features-txt">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum unde
@@ -50,8 +57,8 @@
             animi excepturi consequatur nobis officiis quis, architecto sint ad
             deserunt in dolorem.
           </p>
-        </div>
-        <div class="features">
+        </li>
+        <li class="features">
           <svg
             class="features-icon"
             xmlns="http://www.w3.org/2000/svg"
@@ -63,6 +70,7 @@
               d="M47.668,19.717 L33.402,33.985 L0.534,48.463 L15.011,15.591 L29.279,1.327 C29.898,0.706 30.904,0.706 31.527,1.327 C32.148,1.950 32.148,2.955 31.527,3.576 L17.683,17.422 L9.107,36.888 L12.106,39.887 L31.573,31.314 L45.420,17.470 C46.039,16.847 47.043,16.847 47.668,17.470 C48.289,18.090 48.289,19.100 47.668,19.717 ZM29.745,28.466 C29.434,28.773 29.028,28.931 28.620,28.931 C28.211,28.931 27.805,28.773 27.495,28.466 C26.875,27.843 26.875,26.836 27.495,26.216 L40.827,12.885 C41.450,12.260 42.454,12.260 43.077,12.885 C43.700,13.505 43.700,14.510 43.077,15.134 L29.745,28.466 ZM26.265,24.985 C25.955,25.293 25.549,25.450 25.140,25.450 C24.734,25.450 24.326,25.293 24.015,24.985 C23.394,24.364 23.394,23.354 24.015,22.735 L37.348,9.403 C37.970,8.780 38.974,8.780 39.598,9.403 C40.219,10.023 40.219,11.030 39.598,11.653 L26.265,24.985 ZM22.784,21.502 C22.473,21.814 22.065,21.968 21.659,21.968 C21.253,21.968 20.845,21.814 20.534,21.502 C19.914,20.883 19.914,19.873 20.534,19.253 L33.867,5.922 C34.490,5.298 35.495,5.298 36.117,5.922 C36.739,6.542 36.739,7.548 36.117,8.172 L22.784,21.502 Z"
             />
           </svg>
+          <br>
           <span class="features-title">Web and App design</span>
           <p class="features-txt">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum unde
@@ -70,8 +78,8 @@
             animi excepturi consequatur nobis officiis quis, architecto sint ad
             deserunt in dolorem.
           </p>
-        </div>
-        <div class="features">
+        </li>
+        <li class="features">
           <svg
             class="features-icon"
             xmlns="http://www.w3.org/2000/svg"
@@ -83,6 +91,7 @@
               d="M47.668,19.717 L33.402,33.985 L0.534,48.463 L15.011,15.591 L29.279,1.327 C29.898,0.706 30.904,0.706 31.527,1.327 C32.148,1.950 32.148,2.955 31.527,3.576 L17.683,17.422 L9.107,36.888 L12.106,39.887 L31.573,31.314 L45.420,17.470 C46.039,16.847 47.043,16.847 47.668,17.470 C48.289,18.090 48.289,19.100 47.668,19.717 ZM29.745,28.466 C29.434,28.773 29.028,28.931 28.620,28.931 C28.211,28.931 27.805,28.773 27.495,28.466 C26.875,27.843 26.875,26.836 27.495,26.216 L40.827,12.885 C41.450,12.260 42.454,12.260 43.077,12.885 C43.700,13.505 43.700,14.510 43.077,15.134 L29.745,28.466 ZM26.265,24.985 C25.955,25.293 25.549,25.450 25.140,25.450 C24.734,25.450 24.326,25.293 24.015,24.985 C23.394,24.364 23.394,23.354 24.015,22.735 L37.348,9.403 C37.970,8.780 38.974,8.780 39.598,9.403 C40.219,10.023 40.219,11.030 39.598,11.653 L26.265,24.985 ZM22.784,21.502 C22.473,21.814 22.065,21.968 21.659,21.968 C21.253,21.968 20.845,21.814 20.534,21.502 C19.914,20.883 19.914,19.873 20.534,19.253 L33.867,5.922 C34.490,5.298 35.495,5.298 36.117,5.922 C36.739,6.542 36.739,7.548 36.117,8.172 L22.784,21.502 Z"
             />
           </svg>
+          <br>
           <span class="features-title">Web and App design</span>
           <p class="features-txt">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum unde
@@ -90,8 +99,8 @@
             animi excepturi consequatur nobis officiis quis, architecto sint ad
             deserunt in dolorem.
           </p>
-        </div>
-        <div class="features">
+        </li>
+        <li class="features">
           <svg
             class="features-icon"
             xmlns="http://www.w3.org/2000/svg"
@@ -103,6 +112,7 @@
               d="M47.668,19.717 L33.402,33.985 L0.534,48.463 L15.011,15.591 L29.279,1.327 C29.898,0.706 30.904,0.706 31.527,1.327 C32.148,1.950 32.148,2.955 31.527,3.576 L17.683,17.422 L9.107,36.888 L12.106,39.887 L31.573,31.314 L45.420,17.470 C46.039,16.847 47.043,16.847 47.668,17.470 C48.289,18.090 48.289,19.100 47.668,19.717 ZM29.745,28.466 C29.434,28.773 29.028,28.931 28.620,28.931 C28.211,28.931 27.805,28.773 27.495,28.466 C26.875,27.843 26.875,26.836 27.495,26.216 L40.827,12.885 C41.450,12.260 42.454,12.260 43.077,12.885 C43.700,13.505 43.700,14.510 43.077,15.134 L29.745,28.466 ZM26.265,24.985 C25.955,25.293 25.549,25.450 25.140,25.450 C24.734,25.450 24.326,25.293 24.015,24.985 C23.394,24.364 23.394,23.354 24.015,22.735 L37.348,9.403 C37.970,8.780 38.974,8.780 39.598,9.403 C40.219,10.023 40.219,11.030 39.598,11.653 L26.265,24.985 ZM22.784,21.502 C22.473,21.814 22.065,21.968 21.659,21.968 C21.253,21.968 20.845,21.814 20.534,21.502 C19.914,20.883 19.914,19.873 20.534,19.253 L33.867,5.922 C34.490,5.298 35.495,5.298 36.117,5.922 C36.739,6.542 36.739,7.548 36.117,8.172 L22.784,21.502 Z"
             />
           </svg>
+          <br>
           <span class="features-title">Web and App design</span>
           <p class="features-txt">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum unde
@@ -110,66 +120,79 @@
             animi excepturi consequatur nobis officiis quis, architecto sint ad
             deserunt in dolorem.
           </p>
-        </div>
-      </section>
-      <section>
-        <h2>Waxom is Realization of your Ideas.</h2>
-        <p>
+        </li>
+       </section>
+       <section>
+         <div class="allwaxom">
+        <h2 class="waxomrel">Waxom is Realization of your Ideas.</h2>
+        <p class="waxominvest">
           Investigationes demonstraverunt lectores legere me lius quod ii legunt
           saepius. Claritas est etiam processus dynamicus, qui sequitur
           mutationem consuetudium.
         </p>
+        <div class="multi_photo"></div>
+      </div>
       </section>
-      <section>
+      <section class="waxommulti">
         <h2>Waxom Multipurpose WordPress Theme</h2>
         <p>Don't Forget to Rate the Template. Thanks so much!</p>
-        <a href="#">Purchase now</a>
+        <a class="click2" href="#">Purchase now</a>
       </section>
-      <section>
-        <h2>Our Latest Projects.</h2>
-        <p>
+      <section class="last">
+        <h2 class="olp">Our Latest Projects.</h2>
+        <p class="invest">
           Investigationes demonstraverunt lectores legere me lius quod ii legunt
           saepius. Claritas est etiam processus dynamicus, qui sequitur
           mutationem consuetudium.
-        </p>
-        <li>all</li>
-        <li>web disign</li>
-        <li>mobile app</li>
-        <li>illistration</li>
-        <li>photography</li>
-      </section>
-    </main>
-    <div class="img-project">
-      <img src="#" alt="" height="237" width="370" />
-      <h3 class="img-project-text-h">Claritas Etiam Processus</h3>
-      <p class="img-projrct-text-p">Photography, Nature</p>
-    </div>
-    <div class="img-project">
-      <img src="#" alt="" height="237" width="370" />
-      <h3 class="img-project-text-h">Claritas Etiam Processus</h3>
-      <p class="img-projrct-text-p">Photography, Nature</p>
-    </div>
-    <div class="img-project">
-      <img src="#" alt="" height="237" width="370" />
-      <h3 class="img-project-text-h">Claritas Etiam Processus</h3>
-      <p class="img-projrct-text-p">Photography, Nature</p>
-    </div>
-    <div class="img-project">
-      <img src="#" alt="" height="237" width="370" />
-      <h3 class="img-project-text-h">Claritas Etiam Processus</h3>
-      <p class="img-projrct-text-p">Photography, Nature</p>
-    </div>
-    <div class="img-project">
-      <img src="#" alt="" height="237" width="370" />
-      <h3 class="img-project-text-h">Claritas Etiam Processus</h3>
-      <p class="img-projrct-text-p">Photography, Nature</p>
-    </div>
-    <div class="img-project">
-      <img src="#" alt="" height="237" width="370" />
-      <h3 class="img-project-text-h">Claritas Etiam Processus</h3>
-      <p class="img-projrct-text-p">Photography, Nature</p>
-    </div>
-    <a href="#">Load more</a>
+        </p><div class="invest-main-all">
+        <li class="invest-main">all</li>
+        <li class="invest-main">web disign</li>
+        <li class="invest-main">mobile app</li>
+        <li class="invest-main"> illistration</li>
+        <li class="invest-main">photography</li>
+      </div>
+      
+      <section class="all-article">
+        <li class="article">
+          <img class="article-photo" src="../i.webp alt="html" width="200" height="200">
+          <div class="article-txt-wrapper">
+            <span class="article-title">Claritas Etiam Processus</span>
+            <span class="article-txt">Photography, Nature</span>
+          </li>
+          <li class="article">
+            <img class="article-photo" src="..//htmlcss/задание/img/i.webp" alt="html" width="200" height="200">
+            <div class="article-txt-wrapper">
+              <span class="article-title">Claritas Etiam Processus</span>
+              <span class="article-txt">Photography, Nature</span>
+            </li>
+            <li class="article">
+              <img class="article-photo" src="..//i.webp" alt="html" width="200" height="200">
+              <div class="article-txt-wrapper">
+                <span class="article-title">Claritas Etiam Processus</span>
+                <span class="article-txt">Photography, Nature</span>
+              </li>
+              <li class="article">
+                <img class="article-photo" src="..//i.webp" alt="html" width="200" height="200">
+                <div class="article-txt-wrapper">
+                  <span class="article-title">Claritas Etiam Processus</span>
+                  <span class="article-txt">Photography, Nature</span>
+                </li>
+                <li class="article">
+                  <img class="article-photo" src="..//i.webp" alt="html" width="200" height="200">
+                  <div class="article-txt-wrapper">
+                    <span class="article-title">Claritas Etiam Processus</span>
+                    <span class="article-txt">Photography, Nature</span>
+                  </li>
+                  <li class="article">
+                    <img class="article-photo" src="..//i.webp" alt="html" width="200" height="200">
+                    <div class="article-txt-wrapper">
+                      <span class="article-title">Claritas Etiam Processus</span>
+                      <span class="article-txt">Photography, Nature</span>
+                    </li></section>
+                    <div class="po-click">
+        
+        <a class="click" href="#">Load more</a></div>
+  </section> 
     <section>
       <video
         class="video-file"
@@ -185,6 +208,6 @@
         Investigationes demonstraverunt lectores legere me lius quod ii legunt
         saepius, qui sequitur mutationem consuetudium.
       </p>
-    </section>
+    </section></main>
   </body>
 </html>
